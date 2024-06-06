@@ -1,0 +1,29 @@
+.header-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;  /* Defines one fractional unit and auto width for Search component */
+  background-color: #333;
+  color: #fff;
+  padding: 1px;
+  height: 10%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Removed inline display for grid layout */
+  justify-content: space-between; /* Distributes items horizontally */
+}
+
+nav ul li {
+  margin-right: 5px;
+}
+
+nav ul li button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* You can remove the styles related to inline display (.Search) as they are no longer needed */

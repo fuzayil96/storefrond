@@ -1,0 +1,27 @@
+styles.css yoki har qanday boshqa nomdagi fayl
+.card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .buy-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buy-button:hover {
+    background-color: #0056b3;
+  }
